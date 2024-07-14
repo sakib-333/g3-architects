@@ -40,3 +40,40 @@ body {
 .b-b {
   border: 1px solid black;
 }
+
+/* Nav */
+nav {
+  margin-top: 20px;
+}
+nav h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.nav-items li {
+  list-style-type: none;
+  margin-left: 30px;
+}
+.nav-item a {
+  text-decoration: none;
+  color: rgb(66, 66, 66);
+}
+
+/* Media queries */
+/* Mobile device */
+@media screen and (max-width: 675px) {
+  nav {
+    flex-direction: column;
+  }
+  nav h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .nav-items {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .nav-item {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
