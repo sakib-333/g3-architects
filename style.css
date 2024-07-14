@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+/* Work Sans font */
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
 /* Common property */
 .flex {
   display: flex;
