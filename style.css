@@ -67,8 +67,9 @@ nav h1 {
 .nav-items {
   margin-top: 20px;
 }
-.nav-items li {
+.nav-item {
   list-style-type: none;
+  display: contents;
   margin-left: 30px;
 }
 .nav-item a {
@@ -101,6 +102,7 @@ nav h1 {
 .banner-img-cont {
   width: 75%;
   max-width: 1440px;
+  margin-bottom: 10px;
 }
 .banner-img-cont img {
   width: 100%;
@@ -124,11 +126,15 @@ nav h1 {
     text-align: center;
     margin-bottom: 5px;
   }
+  .banner {
+    margin-top: 50px;
+  }
   .banner h1 {
     font-size: 2rem;
   }
   .banner p {
     width: 75%;
+    text-align: justify;
   }
   .btn-explore-more {
     padding: 15px 20px;
