@@ -41,6 +41,9 @@ body {
 .margin-btm {
   margin-bottom: 20px;
 }
+.margin-btm-80 {
+  margin-bottom: 80px;
+}
 .cursor-pointer:hover {
   cursor: pointer;
 }
@@ -180,6 +183,18 @@ main {
   left: 50%;
 }
 
+/* Some facts */
+.some-facts {
+  width: 90%;
+  margin-top: 100px;
+}
+.fact-card {
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 144, 14);
+  border-radius: 8px;
+}
 /* Media queries */
 @media screen and (max-width: 675px) {
   nav {
@@ -230,5 +245,14 @@ main {
   .love-enjoy-text,
   .love-enjoy-img {
     width: 100%;
+  }
+  .facts-cards {
+    width: 320px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
   }
 }
