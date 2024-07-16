@@ -204,10 +204,14 @@ main {
 .sponspors {
   margin-top: 150px;
   width: 90%;
-  /* margin-bottom: 50px; */
+}
+
+.sponspors h1 {
+  width: 35%;
+  text-align: center;
 }
 .sponspors p {
-  width: 430px;
+  width: 50%;
   text-align: center;
   font-size: 1rem;
 }
