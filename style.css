@@ -204,6 +204,7 @@ main {
 .sponspors {
   margin-top: 150px;
   width: 90%;
+  /* margin-bottom: 50px; */
 }
 .sponspors p {
   width: 430px;
@@ -227,7 +228,7 @@ footer {
   border-radius: 8px;
   background: rgb(255, 244, 231);
   padding: 35px 0 35px 0;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 /* Media queries */
@@ -236,7 +237,7 @@ footer {
     flex-direction: column;
   }
   nav h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
   }
   .nav-items {
@@ -251,6 +252,7 @@ footer {
     margin-top: 50px;
   }
   .banner h1 {
+    width: 90%;
     font-size: 2rem;
   }
   .banner p {
@@ -277,10 +279,17 @@ footer {
   .experience {
     display: none;
   }
+  .love-enjoy-text h1 {
+    width: 90%;
+    font-size: 2rem;
+  }
   .love-enjoy-text,
   .love-enjoy-img {
     width: 100%;
     margin-bottom: 30px;
+  }
+  .some-facts h1 {
+    font-size: 2rem;
   }
   .some-facts {
     margin-top: 10px;
@@ -300,6 +309,9 @@ footer {
   .sponspors {
     margin-top: 50px;
   }
+  .sponspors h1 {
+    font-size: 2rem;
+  }
   .sponspors p {
     width: 90%;
   }
@@ -314,7 +326,7 @@ footer {
     margin-bottom: 40px;
   }
   footer {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     margin-bottom: 50px;
   }
 }
