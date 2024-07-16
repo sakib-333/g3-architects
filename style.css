@@ -219,6 +219,17 @@ main {
   object-fit: cover;
 }
 
+footer {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 90%;
+  border-radius: 8px;
+  background: rgb(255, 244, 231);
+  padding: 35px 0 35px 0;
+  margin-bottom: 100px;
+}
+
 /* Media queries */
 @media screen and (max-width: 675px) {
   nav {
@@ -269,6 +280,13 @@ main {
   .love-enjoy-text,
   .love-enjoy-img {
     width: 100%;
+    margin-bottom: 30px;
+  }
+  .some-facts {
+    margin-top: 10px;
+  }
+  .some-facts p {
+    margin-bottom: 30px;
   }
   .facts-cards {
     width: 320px;
@@ -279,6 +297,12 @@ main {
     box-sizing: border-box;
     margin: 0 auto;
   }
+  .sponspors {
+    margin-top: 50px;
+  }
+  .sponspors p {
+    width: 90%;
+  }
   .sponspors-img-cont {
     flex-direction: column;
   }
@@ -288,5 +312,9 @@ main {
     border: 1px solid gray;
     width: 40%;
     margin-bottom: 40px;
+  }
+  footer {
+    font-size: 0.8rem;
+    margin-bottom: 50px;
   }
 }
